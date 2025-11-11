@@ -1,6 +1,6 @@
-"""
-HackBio Internship - Stage 0 Essay Task
-Team: Glycine
+# HackBio Internship - Stage 0 Essay Task
+
+# Team: Glycine
 
 # Task: HackBio Landing (Technical Writing and appreciation of Single Cell Genomics).
 
@@ -9,8 +9,6 @@ Team: Glycine
 # GitHub: https://github.com/opemidimejiosatoyinbo
 
 # LinkedIn: https://linkedin.com/in/opemidimejiosatoyinbo
-
-"""
 
 **SINGLE CELLS, BIG DATA: HOW ONE CELL CAN TELL A THOUSAND STORIES**
 
