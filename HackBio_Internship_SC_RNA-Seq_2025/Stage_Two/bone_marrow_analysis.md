@@ -1,4 +1,4 @@
-### **🧬 Bone Marrow Single-Cell RNA-seq Analysis**
+# **🧬 Bone Marrow Single-Cell RNA-seq Analysis**
 
 ---
 
@@ -22,7 +22,7 @@ This project executes a reproducible analysis pipeline for **human bone marrow s
 | **Tissue** | Human Bone Marrow |
 | **Metadata** | Disease stage, treatment, tissue type, QC metrics |
 
-## **📥 Data Download**
+### **📥 Data Download**
 *Due to file size limits, data is hosted externally.*
 
 | Data Type | Filename | Link |
@@ -36,7 +36,7 @@ This project executes a reproducible analysis pipeline for **human bone marrow s
 
 ## **🛠️ Environment & Setup**
 
-## **Dependencies**
+### **Dependencies**
 | Package | Usage |
 | :--- | :--- |
 | `scanpy` | Core single-cell analysis & plotting |
@@ -47,7 +47,7 @@ This project executes a reproducible analysis pipeline for **human bone marrow s
 | `matplotlib` | Visualization |
 | `seaborn` | Visualization |
 
-## **Installation**
+### **Installation**
 To reproduce this analysis:
 
 1.  **Clone the repository:**
@@ -82,7 +82,7 @@ To reproduce this analysis:
 
 ## **🔬 Biological Insights**
 
-## **1. Cell Type Annotation (`leiden_res1_0`)**
+### **1. Cell Type Annotation (`leiden_res1_0`)**
 The analysis successfully resolved distinct myeloid and lymphoid populations.
 
 | Cluster ID | Cell Type | Canonical Markers Used | Biological Role |
@@ -96,11 +96,11 @@ The analysis successfully resolved distinct myeloid and lymphoid populations.
 | **7** | **Plasma Cells** | *MZB1, JCHAIN* | Active antibody secretion. |
 | **9** | **Monocytes** | *CD14, LYZ* | Inflammation; phagocytosis. |
 
-## **2. Tissue Source Justification**
+### **2. Tissue Source Justification**
 **Conclusion:** The sample is consistent with **Bone Marrow**.
 * **Evidence:** Presence of **Neutrophils** (Cluster 0) and **Platelets** (Cluster 5), which are typically absent or low in processed PBMC samples, alongside a full spectrum of lymphocyte lineages.
 
-## **3. Patient Immune Status Assessment**
+### **3. Patient Immune Status Assessment**
 The cell type composition suggests an **active immune response**.
 
 * **Adaptive Activation:** High abundance of **T Memory Cells** (Clusters 2, 6) and **B Memory Cells** (Cluster 4).
